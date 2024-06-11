@@ -251,7 +251,7 @@ services:
     image: systementry-6479
     container_name: systementry-6479
     ports: 
-      - 8124:8124
+      - 8126:8126
     env_file: .env
     depends_on:
       - mongo
@@ -272,7 +272,7 @@ services:
     image: crudapp-6479
     container_name: crudapp-6479
     ports: 
-      - 8125:8125
+      - 8127:8127
     env_file: .env
     depends_on:
       - mongo
