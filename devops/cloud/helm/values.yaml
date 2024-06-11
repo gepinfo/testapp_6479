@@ -57,14 +57,14 @@ service:
   systementry: 
     name: systementry
     type: NodePort
-    port: 8126
-    targetPort: 8126
+    port: 8132
+    targetPort: 8132
 
   crudapp: 
     name: crudapp
     type: NodePort
-    port: 8127
-    targetPort: 8127
+    port: 8133
+    targetPort: 8133
 
 
 deployment:
